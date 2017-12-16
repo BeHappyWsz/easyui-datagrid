@@ -1,0 +1,55 @@
+[{
+	"id":1,
+	"text":"My Documents",
+	"iconCls":"icon-page",   "这是注释(注意逗号)":"自定义tree图标",
+	"children":[{
+		"id":11,
+		"text":"Photos",
+		"iconCls":"icon-page", "这是注释(注意逗号)":"自定义tree图标",
+		"children":[{
+			"id":111,
+			"text":"Friend",
+			"iconCls":"icon-page",
+			"page":"newWin.jsp",  "这是注释(注意逗号)":"自定义点击的目标页面"
+		},{
+			"id":112,
+			"text":"Wife",
+			"page":"grid.jsp",  "这是注释(注意逗号)":"自定义点击的目标页面"
+		},{
+			"id":113,
+			"text":"Company"
+		}]
+	},{
+		"id":12,
+		"text":"Program Files",
+		"iconCls":"icon-page", 
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"Intel"
+		},{
+			"id":122,
+			"text":"Java",
+			"attributes":{
+				"p1":"Custom Attribute1",
+				"p2":"Custom Attribute2"
+			}
+		},{
+			"id":123,
+			"text":"Microsoft Office"
+		},{
+			"id":124,
+			"text":"Games",
+			"checked":true
+		}]
+	},{
+		"id":13,
+		"text":"index.html"
+	},{
+		"id":14,
+		"text":"about.html"
+	},{
+		"id":15,
+		"text":"welcome.html"
+	}]
+}]
